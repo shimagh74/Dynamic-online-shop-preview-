@@ -1,0 +1,18 @@
+.size_content {
+    display: contents;
+    direction: ltr;
+}
+.size_cir {
+    margin: 0 1.5rem;
+    background-color: inherit;
+}
+.size_cir p {
+    border-radius: 50%;
+    background-color: inherit;
+    margin-bottom: 0 !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+}

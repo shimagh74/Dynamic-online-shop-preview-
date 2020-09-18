@@ -1,0 +1,15 @@
+.btn_order:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+  }
+  
+   .btn_order{
+    border: none;
+    background-image: linear-gradient( to right , #BC74F9 , #EF74F8);
+    border-radius: 36px;
+    width: 10rem;
+    height: 2.6rem;
+    color: white;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 18px;
+   }

@@ -1,0 +1,205 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("Assets/Fonts/Montserrat/Montserrat-Black.ttf");
+}
+.App {
+    text-align: center;
+    background-image: url("Assets/bg-pic.png");
+    background-size: cover;
+    min-width: 480px !important;
+
+}
+
+* {
+    direction: rtl;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (min-width: 767px) {
+    .box {
+        }
+}
+.col {
+    flex-basis: 0 !important;
+    max-width: 100%;
+}
+
+.box {
+    background-color: white;
+    height: 49rem;
+    margin: 5rem 2rem;
+    min-width: 500px !important;
+}
+.box h4,
+h5 {
+    background-color: inherit;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+h4 {
+    font-weight: 600 !important;
+}
+.text_p {
+    margin-bottom: 0 !important;
+}
+.sizecircel {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.bg-color {
+    background-color: white;
+    padding: 0.5rem;
+    direction: ltr;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.main-pic {
+    width: 32rem;
+    height: 20rem;
+    min-width: 480px;
+    margin-bottom: 0.5rem;
+    object-fit: contain;
+
+}
+.blue {
+    background-color: #34A6E1;
+}
+.pink {
+    background-color: #F94095;
+}
+.yellow {
+    background-color: #FFB900;
+}
+.purple {
+    background-color: #845DEE;
+}
+.navbar {
+    background-color: white;
+}
+.top-nav {
+    margin-top: 1rem;
+}
+.bg-icon {
+    background-color: white;
+    cursor: pointer;
+}
+.bg-icon_AngleLeft {
+    color: lightgray !important;
+    background-color: white;
+    cursor: pointer;
+}
+.bg-icon_ShoppingCart {
+    color: lightgray !important;
+    background-color: white;
+    cursor: pointer;
+}
+.center {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.small {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.small:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.medium {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.medium:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.large {
+    width: 4.25rem;
+    height: 4.25rem;
+
+}
+.large:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.xlarge {
+    width: 5rem;
+    height: 5rem;
+}
+.xlarge:hover {
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+.bg-size {
+    background-color: white !important;
+    direction: ltr;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-bsfilter {
+    background-image: linear-gradient( to right , #BC74F9 , #EF74F8);
+    width: 2rem !important;
+    height: 2rem !important;
+    border-radius: 50%;
+    padding: 0.35rem;
+    color: white;
+    cursor: pointer;
+}
+
+.category_time {
+    direction: ltr;
+    align-items: center;
+    justify-content: end;
+}
+.clock-icon {
+    background-color: inherit;
+    margin-left: 6px;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+.main_box {
+    border-left: solid 1px #e4e4e4;
+    height: 43.7rem;
+    background-color: white;
+    margin-left: 1rem;
+
+}
+.time_now {
+    direction: ltr !important;
+    margin-left: 3.7rem !important;
+}
+.clock_now {
+    direction: ltr !important;
+    margin-left: 4rem !important;
+    font-weight: 700;
+    font-size: 27px;
+    display: flex;
+}
+.main_title {
+    margin-left: 3.7rem !important;
+    margin-bottom: 4rem !important;
+    display: flex;
+    margin-right: 1.2rem;
+    margin-right: 44px;
+}
+.heart-icon {
+    background-color: inherit;
+    color: #b874f9;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+.heart-icon:active {
+    color: #eceaee;
+}
